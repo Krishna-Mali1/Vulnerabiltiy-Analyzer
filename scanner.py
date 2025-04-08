@@ -80,7 +80,7 @@ class VulnerabilityScannerApp:
         self.output_text.pack(padx=10, pady=10)
 
         # Creator info
-        self.creator_label = tk.Label(root, text="Vulnerability Scanner created by Krishna Mali, Malhar Acharya, Darshil Chocha", font=("Arial", 10, "italic"))
+        self.creator_label = tk.Label(root, text="Vulnerability Scanner created by Krishna Mali", font=("Arial", 10, "italic"))
         self.creator_label.pack(pady=5)
 
         self.scan_thread = None
