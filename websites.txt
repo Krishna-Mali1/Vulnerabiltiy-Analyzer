@@ -1,0 +1,13 @@
+Site	Description
+🔗 http://testphp.vulnweb.com/	A classic testbed for SQLi/XSS. Provided by Acunetix.
+🔗 http://zero.webappsecurity.com/	Simulates a banking application (great for auth testing).
+🔗 http://demo.testfire.net/	Another vulnerable banking app by IBM/HCL.
+🔗 https://xss-game.appspot.com/	Google’s XSS training playground.
+🔗 https://portswigger.net/web-security	PortSwigger labs for SQLi, XSS, and more.
+🔗 http://bWAPP: buggy Web App	Installable app with 100+ vulnerabilities.
+🔗 DVWA (Damn Vulnerable Web App)	Local app for SQLi, XSS, auth issues, etc.\
+ "<script>alert('XSS')</script>",
+            "<img src=x onerror=alert(1)>",
+            "'\"><script>alert('XSS')</script>",
+            "<svg/onload=alert('XSS')>",
+            "<iframe src='javascript:alert(\"XSS\")'>"
